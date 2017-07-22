@@ -42,7 +42,7 @@ proto = GenericFeatureStatisticsGenerator().ProtoFromDataFrames([{'name': 'test'
 # Visualization
 
 A proto can easily be visualized in a Jupyter notebook using the installed nbextension.
-The proto is stingified and then provided as input to a facets-overview Polymer web component, via the `protoInput` property on the element.
+The proto is stringified and then provided as input to a facets-overview Polymer web component, via the `protoInput` property on the element.
 The web component is then displayed in output cell of the notebook.
 
 Example code (continued from above example):
